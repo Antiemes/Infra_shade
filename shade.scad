@@ -12,7 +12,7 @@ intersection()
         cube([11.15+4, 15.54+4, 4], center=true);
         translate([0, q, 0]) mirror([0, 0, 1]) cylinder(d=4.4, h=5);
       }
-      translate([0, 0, 1]) cube([11.15, 15.54, 2.1], center=true);
+      translate([0, 0, 1]) cube([11.25, 15.54, 2.1], center=true);
     }
     translate([0, q, 0]) mirror([0, 0, 1]) cylinder(d=2.4, h=20);
   }
